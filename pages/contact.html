@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset = "UTF-8">
+	<title>Contact Us</title>
+    <link href="../css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+<header>
+    <div class="hero">
+        <img src="../images/holding-plant-pexels-artem-podrez.jpeg" alt="recycled art" width="1080">
+        <h1>We want to hear <br>from you!<br>What questions or <br>suggestions do you have?</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><img src="../images/RECYCL02.svg" alt="recycle symbol" width="50" height="50"></li>
+            <li> <a href="../index.html">Home</a></li>
+            <li><a href = "resources.html">Resources</a></li>
+            <li><a href = "reuse.html">DIY</a></li>
+            <li><a href = "tips.html">Tips</a></li>
+            <li id="tab">Contact</li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" autofocus maxlength="75">
+        <label for="email">* Email</label>
+        <input type="email" name="email" id="email" required maxlength="75">
+        <label for="topic">* Select a category:</label>
+        <select id="topic" name="topic" required>
+            <option value="" disabled selected hidden>-- Please choose --</option>
+            <option value="recycle">I have a question or suggestion related to Recycling, Compost or Garbage</option>
+            <option value="resources">I have a question or suggestion related to Community Resources</option>
+            <option value="diy">I have a question or suggestion related to DIY projects</option>
+            <option value="other">Other – I have another type of question, suggestion or comment</option>
+        </select>
+        <label for="comments">* Question / suggestions / comments:</label>
+        <textarea name="comments" id="comments" required rows="7" maxlength="6000"></textarea>
+        <button type="submit" value="Submit">Submit</button>
+    </form>
+</main>
+
+<footer>
+    <hr>
+    <p>&copy; Kristin Eberman<br>CSD 112: HTML and CSS – Fall 2021</p>
+    <p>While this website is specific to King County in Washington, much of this information can be applied all over the world!</p>
+    <p>Visit King County's website for more comprehensive information about <br><a href="https://kingcounty.gov/depts/dnrp/solid-waste/garbage-recycling.aspx" target="_blank">Garbage and Recyclying Services</a>, including tips and <a href="https://kingcounty.gov/depts/dnrp/solid-waste/garbage-recycling/faq.aspx" target="_blank">frequently asked questions</a>.</p>
+</footer>
+
+</div>          
+</body>
+</html>
